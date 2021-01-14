@@ -1,0 +1,139 @@
+body{
+    font-family: 'Imbue', serif;
+}
+
+section .head{
+    width: 1300px;
+    height: 200px;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.menu{
+    margin-right: 50px;
+    padding: 30px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    color: rgb(114, 111, 111);
+}
+
+span{
+    color: #FABE4C;
+}
+
+.color{
+    color: #363958;
+}
+
+.text-side{
+    margin-left: 80px;
+    margin-top: 200px;
+    width: 50%;
+}
+
+section.banner{
+width: 1300px;
+height: 400px;
+background-color: rgb(227, 238, 238);
+transform: translate(30px, -200px);
+
+}
+
+.image-side img{
+     float: right;
+     width: 400px;
+     height: 300px;
+     background-color: #8BA622;
+     border-radius: 30px;
+     margin-right: 100px;
+     transform: translate(15px, -200px);
+    
+}
+.link-button{
+    background-color: #8BA622;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: none;
+    align-items: left;
+}
+
+h2{
+    margin-left: 50px;
+}
+
+.card-group img{
+   margin: 20px;
+}
+
+.item{
+    margin-left: 100px;
+    width: 1200px;
+    /* height: 500px; */
+    overflow: hidden;
+    background-color: rgb(227, 238, 238);
+   
+}
+
+.home img{
+    margin-left: 100px;
+    width: 150px;
+    
+    
+}
+.home h3 p{
+    margin: 100px;
+}
+
+.footer-image img{
+    width: 400px;
+    height: 500px;
+    float: right;
+    transform: translate(450px, -710px);
+}
+
+.conditions{
+    width: 1200px;
+    height: 800px;
+    background-color: rgb(227, 238, 238);
+    margin-left: 100px;
+}
+
+.footer{
+    width: 800px;
+    height: 300px;
+    margin-left: 100px;
+    
+}
+section.bg-info.mt-5.d-flex.justify-content-center.align-items-center.footer {
+    transform: translate(160px, -380px);
+}
+footer {
+    transform: translate(10px, -300px);
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+  }
+
+@media(max-width:992px){
+    body{
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+@media(max-width:668){
+    body{
+        grid-template-columns: repeat(1, 1fr)
+    }
+}
+
+
+    
